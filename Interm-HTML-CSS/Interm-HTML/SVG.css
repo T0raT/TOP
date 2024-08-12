@@ -3,9 +3,17 @@ body {
   height: 100svh;
   max-width: 50%;
   text-align: center;
-  /* Centering without flexbox */
+  /* Centering without flexbox or grid */
   margin: auto;
   align-content: center;
+}
+
+.code-block {
+  background-color: rgb(226, 226, 226);
+  padding: 0.2rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #c2667b;
 }
 
 .container {
